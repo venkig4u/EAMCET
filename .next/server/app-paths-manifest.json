@@ -1,0 +1,4 @@
+{
+  "/ai-generator/page": "app/ai-generator/page.js",
+  "/admin/page": "app/admin/page.js"
+}

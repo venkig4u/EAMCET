@@ -1,0 +1,28 @@
+Role: Expert Full-Stack Web Developer specialized in high-traffic EdTech platforms.
+Goal: Build an ultra-fast, scalable, responsive online exam portal for AP/TS EAMCET aspirants.
+
+1. Core Modules:
+   - Student Dashboard: History, accuracy analytics, bookmarked questions.
+   - Previous Year Papers Mode: Filter by State (AP/TS), Year (2018-2026), Stream (Eng/Agri), Shift.
+   - Subject & Topic-Wise Practice Mode: Mathematics, Physics, Chemistry with customizable difficulty.
+   - AI Question Generator: OpenAI/Gemini integration for generating fresh, syllabus-aligned questions with solutions.
+   - CBT Exam Interface: Single question view, Bilingual Toggle (English & Telugu), color-coded collapsible Question Palette, countdown timer with auto-submit, KaTeX math rendering, controls (Save & Next, Clear Response, Mark for Review).
+   - Post-Exam Analysis: Instant score breakdown, Rank Predictor, detailed solutions with an "Explain with AI" tutor button, PDF export.
+   - Gamification: Daily Streaks, Daily 10-Question Speed Challenge with Leaderboard, achievement badges.
+
+2. Architecture & Performance Optimization:
+   - Framework: Next.js (App Router) on Vercel/Cloudflare Pages for edge CDN delivery.
+   - Math Engine: KaTeX for fast formula rendering.
+   - Payload Optimization: Load all test questions in a single initial API payload for 0-latency navigation.
+   - Caching: Redis caching layer for static Previous Year Question sets.
+   - Database: Supabase / PostgreSQL serverless backend with connection pooling.
+
+3. AdSense Strategy:
+   - Responsive banners on non-exam screens.
+   - Zero ads inside the active exam interface.
+
+4. Database Schema Requirements:
+   - Users: user_id, name, email, auth_provider, created_at
+   - Questions: question_id, subject, topic, question_text_en, question_text_te, options_en, options_te, correct_option, explanation_en, explanation_te, is_previous_year, state, year, shift, difficulty, image_url
+   - Test_Attempts: attempt_id, user_id, test_type, total_score, subject_scores, user_answers, time_taken, rank_estimate, created_at
+   - User_Gamification: user_id, streak_count, last_active_date, total_questions_solved, badges_earned
