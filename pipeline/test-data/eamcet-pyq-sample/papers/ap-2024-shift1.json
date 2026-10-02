@@ -1,0 +1,56 @@
+{
+  "paper": {
+    "state": "AP",
+    "year": 2024,
+    "stream": "Engineering",
+    "shift": "Shift-1",
+    "title": "EAPCET 2024 Shift-1 (Engineering)"
+  },
+  "questions": [
+    {
+      "question_text_en": "If $\\alpha$ and $\\beta$ are the roots of the equation $x^2 - 5x + 6 = 0$, then $\\alpha^2 + \\beta^2$ equals:",
+      "options_en": ["19", "13", "25", "7"],
+      "correct_option": 1,
+      "explanation_en": "Here $\\alpha + \\beta = 5$ and $\\alpha\\beta = 6$. Therefore $\\alpha^2 + \\beta^2 = (\\alpha + \\beta)^2 - 2\\alpha\\beta = 25 - 12 = 13$.",
+      "subject": "Mathematics",
+      "topic": "Quadratic Equations",
+      "difficulty": "Medium"
+    },
+    {
+      "question_text_en": "The sum of the first $n$ terms of an arithmetic progression is $S_n = 3n^2 + 2n$. The $10^{th}$ term of the progression is:",
+      "options_en": ["55", "57", "58", "59"],
+      "correct_option": 3,
+      "explanation_en": "$a_{10} = S_{10} - S_9 = (3 \\cdot 10^2 + 2 \\cdot 10) - (3 \\cdot 9^2 + 2 \\cdot 9) = 320 - 261 = 59$.",
+      "subject": "Mathematics",
+      "topic": "Sequences & Series",
+      "difficulty": "Medium"
+    },
+    {
+      "question_text_en": "Two point charges $+4\\,\\mu C$ and $+9\\,\\mu C$ are placed $10\\,cm$ apart in air. The distance from the $+4\\,\\mu C$ charge at which the electric field intensity is zero is:",
+      "options_en": ["$4\\,cm$", "$5\\,cm$", "$6\\,cm$", "$2\\,cm$"],
+      "correct_option": 0,
+      "explanation_en": "At the null point, $\\frac{k \\cdot 4}{x^2} = \\frac{k \\cdot 9}{(10 - x)^2}$, so $\\frac{2}{x} = \\frac{3}{10 - x}$, giving $x = 4\\,cm$ from the $+4\\,\\mu C$ charge.",
+      "subject": "Physics",
+      "topic": "Electrostatics",
+      "difficulty": "Medium"
+    },
+    {
+      "question_text_en": "A convex lens of focal length $20\\,cm$ forms a real image at a distance of $60\\,cm$ from the lens. The object distance is:",
+      "options_en": ["$20\\,cm$", "$25\\,cm$", "$30\\,cm$", "$40\\,cm$"],
+      "correct_option": 2,
+      "explanation_en": "Using $\\frac{1}{f} = \\frac{1}{v} - \\frac{1}{u}$ with $f = +20\\,cm$ and $v = +60\\,cm$: $\\frac{1}{u} = \\frac{1}{60} - \\frac{1}{20} = -\\frac{1}{30}$, so the object is at $30\\,cm$ from the lens.",
+      "subject": "Physics",
+      "topic": "Optics",
+      "difficulty": "Medium"
+    },
+    {
+      "question_text_en": "The number of $\\sigma$ bonds present in an ethyne ($C_2H_2$) molecule is:",
+      "options_en": ["2", "3", "4", "5"],
+      "correct_option": 1,
+      "explanation_en": "Ethyne has two $C-H$ $\\sigma$ bonds and one $C-C$ $\\sigma$ bond (the triple bond consists of $1\\sigma + 2\\pi$ bonds), so there are $3$ $\\sigma$ bonds in total.",
+      "subject": "Chemistry",
+      "topic": "Chemical Bonding",
+      "difficulty": "Easy"
+    }
+  ]
+}

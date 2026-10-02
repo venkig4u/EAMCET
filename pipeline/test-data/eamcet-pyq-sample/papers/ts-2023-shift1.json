@@ -1,0 +1,38 @@
+{
+  "paper": {
+    "state": "TS",
+    "year": 2023,
+    "stream": "Engineering",
+    "shift": "Shift-1",
+    "title": "TS EAPCET 2023 Shift-1 (Engineering)"
+  },
+  "questions": [
+    {
+      "question_text_en": "If $\\tan\\theta = \\frac{4}{3}$ and $\\theta$ is an acute angle, then $\\sin\\theta$ equals:",
+      "options_en": ["$\\frac{3}{5}$", "$\\frac{4}{3}$", "$\\frac{4}{5}$", "$\\frac{5}{4}$"],
+      "correct_option": 2,
+      "explanation_en": "$\\tan\\theta = \\frac{4}{3}$ gives opposite $= 4$, adjacent $= 3$, so hypotenuse $= \\sqrt{4^2 + 3^2} = 5$ and $\\sin\\theta = \\frac{4}{5}$.",
+      "subject": "Mathematics",
+      "topic": "Trigonometry",
+      "difficulty": "Medium"
+    },
+    {
+      "question_text_en": "In a photoelectric experiment, if the wavelength of the incident light is halved, the energy of each photon becomes:",
+      "options_en": ["Double its original value", "Half its original value", "Four times its original value", "Unchanged"],
+      "correct_option": 0,
+      "explanation_en": "Photon energy $E = \\frac{hc}{\\lambda}$ is inversely proportional to the wavelength, so halving $\\lambda$ doubles the energy.",
+      "subject": "Physics",
+      "topic": "Modern Physics",
+      "difficulty": "Medium"
+    },
+    {
+      "question_text_en": "The total number of orbitals present in the $n = 3$ shell is:",
+      "options_en": ["3", "6", "8", "9"],
+      "correct_option": 3,
+      "explanation_en": "The number of orbitals in a shell is $n^2$. For $n = 3$: one $3s$ + three $3p$ + five $3d$ = $9$ orbitals.",
+      "subject": "Chemistry",
+      "topic": "Atomic Structure",
+      "difficulty": "Easy"
+    }
+  ]
+}
