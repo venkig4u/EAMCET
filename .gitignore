@@ -1,0 +1,19 @@
+# dependencies
+/node_modules
+Admin/node_modules
+Website/node_modules
+
+# next.js
+/.next/
+Admin/.next
+Website/.next
+
+# local env files
+.env*.local
+Admin/.env.local
+Website/.env.local
+
+# typescript
+*.tsbuildinfo
+Admin/tsconfig.tsbuildinfo
+Website/tsconfig.tsbuildinfo

@@ -1,0 +1,38 @@
+{
+  "paper": {
+    "state": "AP",
+    "year": 2023,
+    "stream": "Agriculture",
+    "shift": "Shift-1",
+    "title": "AP EAPCET 2023 Shift-1 (Agriculture)"
+  },
+  "questions": [
+    {
+      "question_text_en": "In angiosperms, the male gametophyte is represented by the:",
+      "options_en": ["Ovule", "Pollen grain", "Embryo sac", "Style"],
+      "correct_option": 1,
+      "explanation_en": "The pollen grain is the male gametophyte in angiosperms; it germinates on the stigma and forms the pollen tube.",
+      "subject": "Botany",
+      "topic": "Morphology of Flowering Plants",
+      "difficulty": "Easy"
+    },
+    {
+      "question_text_en": "The loss of water vapour from the aerial parts of a plant, mainly through the stomata, is called:",
+      "options_en": ["Guttation", "Translocation", "Absorption", "Transpiration"],
+      "correct_option": 3,
+      "explanation_en": "Transpiration is the evaporative loss of water from the aerial parts of the plant, mostly through stomata.",
+      "subject": "Botany",
+      "topic": "Plant Physiology",
+      "difficulty": "Easy"
+    },
+    {
+      "question_text_en": "In mammals, fertilisation normally takes place in the:",
+      "options_en": ["Oviduct (fallopian tube)", "Uterus", "Ovary", "Vagina"],
+      "correct_option": 0,
+      "explanation_en": "Fertilisation in mammals occurs in the ampulla region of the oviduct (fallopian tube).",
+      "subject": "Zoology",
+      "topic": "Human Reproduction",
+      "difficulty": "Medium"
+    }
+  ]
+}

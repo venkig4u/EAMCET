@@ -1,0 +1,94 @@
+{
+  "version": "2.0",
+  "description": "EAMCET/EAPCET Subject Blueprint - Chapter weightages for AP & TS exams",
+  "subjects": {
+    "Mathematics": {
+      "color": "blue",
+      "stream": "Engineering",
+      "chapters": [
+        { "topic": "Calculus - Integral Calculus", "weightagePercent": 12 },
+        { "topic": "Vector Algebra & 3D Geometry", "weightagePercent": 10 },
+        { "topic": "Algebra - Matrices & Determinants", "weightagePercent": 8 },
+        { "topic": "Algebra - Permutations, Combinations & Probability", "weightagePercent": 8 },
+        { "topic": "Calculus - Limits, Continuity & Differentiability", "weightagePercent": 8 },
+        { "topic": "Coordinate Geometry - Parabola, Ellipse & Hyperbola", "weightagePercent": 8 },
+        { "topic": "Trigonometry & Inverse Trigonometry", "weightagePercent": 8 },
+        { "topic": "Calculus - Applications of Derivatives", "weightagePercent": 7 },
+        { "topic": "Algebra - Binomial Theorem & Sequences", "weightagePercent": 6 },
+        { "topic": "Calculus - Differential Equations", "weightagePercent": 6 },
+        { "topic": "Algebra - Complex Numbers", "weightagePercent": 5 },
+        { "topic": "Coordinate Geometry - Straight Lines", "weightagePercent": 5 },
+        { "topic": "Coordinate Geometry - Circles", "weightagePercent": 5 },
+        { "topic": "Statistics", "weightagePercent": 4 }
+      ]
+    },
+    "Physics": {
+      "color": "purple",
+      "stream": "Engineering",
+      "chapters": [
+        { "topic": "Mechanics - Laws of Motion & Work-Energy-Power", "weightagePercent": 14 },
+        { "topic": "Electromagnetism - Current Electricity & Circuits", "weightagePercent": 12 },
+        { "topic": "Thermodynamics & Kinetic Theory of Gases", "weightagePercent": 12 },
+        { "topic": "Electromagnetism - Magnetic Effects of Current & Magnetism", "weightagePercent": 10 },
+        { "topic": "Mechanics - Rotational Motion & Gravitation", "weightagePercent": 10 },
+        { "topic": "Optics - Ray Optics & Optical Instruments", "weightagePercent": 8 },
+        { "topic": "Modern Physics - Atoms, Nuclei & Dual Nature of Matter", "weightagePercent": 8 },
+        { "topic": "Mechanics - Kinematics in 1D & 2D", "weightagePercent": 8 },
+        { "topic": "Oscillations, Waves & Sound", "weightagePercent": 7 },
+        { "topic": "Properties of Solids & Fluids (Viscosity, Surface Tension)", "weightagePercent": 6 },
+        { "topic": "Semiconductors & Electronic Devices", "weightagePercent": 5 }
+      ]
+    },
+    "Chemistry": {
+      "color": "emerald",
+      "stream": "Engineering",
+      "chapters": [
+        { "topic": "Organic Chemistry - Hydrocarbons & Functional Groups", "weightagePercent": 14 },
+        { "topic": "Chemical Bonding & Molecular Structure", "weightagePercent": 10 },
+        { "topic": "Physical Chemistry - Solutions & Colligative Properties", "weightagePercent": 9 },
+        { "topic": "Physical Chemistry - Chemical Kinetics & Equilibrium", "weightagePercent": 9 },
+        { "topic": "Physical Chemistry - Thermodynamics & Thermochemistry", "weightagePercent": 9 },
+        { "topic": "Physical Chemistry - Electrochemistry", "weightagePercent": 8 },
+        { "topic": "Inorganic Chemistry - p-Block Elements", "weightagePercent": 8 },
+        { "topic": "Inorganic Chemistry - Coordination Compounds & d-Block", "weightagePercent": 8 },
+        { "topic": "Organic Chemistry - Carbonyl Compounds, Amines & Biomolecules", "weightagePercent": 9 },
+        { "topic": "Inorganic Chemistry - Periodic Classification & s-Block", "weightagePercent": 6 },
+        { "topic": "Atomic Structure & States of Matter", "weightagePercent": 6 },
+        { "topic": "Environmental Chemistry & General Principles", "weightagePercent": 4 }
+      ]
+    },
+    "Biology": {
+      "color": "green",
+      "stream": "Agriculture",
+      "chapters": [
+        { "topic": "Plant Physiology - Photosynthesis", "weightagePercent": 12 },
+        { "topic": "Plant Physiology - Respiration", "weightagePercent": 10 },
+        { "topic": "Human Physiology - Digestion & Absorption", "weightagePercent": 10 },
+        { "topic": "Human Physiology - Circulation", "weightagePercent": 9 },
+        { "topic": "Human Physiology - Excretion", "weightagePercent": 8 },
+        { "topic": "Genetics - Principles of Inheritance", "weightagePercent": 10 },
+        { "topic": "Genetics - Molecular Basis of Inheritance", "weightagePercent": 9 },
+        { "topic": "Biotechnology - Principles & Processes", "weightagePercent": 8 },
+        { "topic": "Biotechnology - Applications", "weightagePercent": 7 },
+        { "topic": "Ecology - Organisms & Environment", "weightagePercent": 8 },
+        { "topic": "Reproduction in Organisms", "weightagePercent": 9 }
+      ]
+    },
+    "Zoology": {
+      "color": "amber",
+      "stream": "Agriculture",
+      "chapters": [
+        { "topic": "Animal Diversity & Classification", "weightagePercent": 10 },
+        { "topic": "Human Physiology - Digestive & Respiratory Systems", "weightagePercent": 10 },
+        { "topic": "Human Reproduction - Gametogenesis & Fertilization", "weightagePercent": 10 },
+        { "topic": "Genetics & Evolution - Chromosomal Disorders", "weightagePercent": 10 },
+        { "topic": "Biotechnology & Immunology - PCR & Antibodies", "weightagePercent": 10 },
+        { "topic": "Human Nervous & Endocrine Systems", "weightagePercent": 10 },
+        { "topic": "Animal Kingdom - Invertebrates & Vertebrates", "weightagePercent": 10 },
+        { "topic": "Human Physiology - Circulatory & Excretory Systems", "weightagePercent": 10 },
+        { "topic": "Ecology & Environmental Biology", "weightagePercent": 10 },
+        { "topic": "Developmental Biology & Embryology", "weightagePercent": 10 }
+      ]
+    }
+  }
+}
